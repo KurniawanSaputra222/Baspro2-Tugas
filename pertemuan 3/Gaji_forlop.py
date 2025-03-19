@@ -1,8 +1,8 @@
-status = ["Tetap", "Honorer"]
+status = ["Tetap", "Honor"]
 group = ["A", "B", "C"]
 salary = [1000000, 750000]
 permanent_bonus = [200000, 400000, 550000]
-honorary_bonus = [150000, 275000, 480000]
+honor_bonus = [150000, 275000, 480000]
 
 for s in status:
     print("Status:", s)
@@ -12,7 +12,7 @@ for s in status:
             bonus = permanent_bonus[i]
         else:
             sal = salary[1]
-            bonus = honorary_bonus[i]
+            bonus = honor_bonus[i]
         total = sal + bonus
         print(f"Golongan: {group[i]}")
         print(f"Gaji pokok: {sal:,}")
